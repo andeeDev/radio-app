@@ -58,11 +58,11 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: AppBar(
+        backgroundColor: Color.fromRGBO(1, 14, 47, 1),
         title: Row(
-
           children: [
             Image.asset(
-              'bg/title2.png',
+              'bg/t3.png',
               fit: BoxFit.contain,
               height: 100,
               width: 130,
