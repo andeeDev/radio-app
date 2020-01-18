@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
+
   final String title;
 
   @override
@@ -61,21 +62,16 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
 
           children: [
             Image.asset(
-              'bg/title.png',
+              'bg/title2.png',
               fit: BoxFit.contain,
               height: 100,
               width: 130,
             ),
             Container(
                 padding: const EdgeInsets.all(8.0), child: Text('Radio Biz'))
-          ,Image.asset(
-          'bg/title2.png',
-              fit: BoxFit.contain,
-              height: 100,
-              width: 130,
-        )]
-
-        ),
+          ,
+        ],
+      ),
       ),
         body: new Stack(
           children: <Widget>[
